@@ -17,7 +17,7 @@ RUN apt-get update \
     libssl-dev
 
 RUN git clone https://github.com/eclipse/paho.mqtt.c.git && \
-    cd org.eclipse.paho.mqtt.c.git && \
+    cd org.eclipse.paho.mqtt.c && \
     make && \
     make install
 

@@ -14,7 +14,9 @@ RUN apt-get update \
     cmake \
     cmake-gui \
     cmake-curses-gui \
-    libssl-dev
+    libssl-dev \
+    doxygen \
+    graphviz
 
 RUN git clone https://github.com/eclipse/paho.mqtt.c.git
 RUN cd paho.mqtt.c && \
